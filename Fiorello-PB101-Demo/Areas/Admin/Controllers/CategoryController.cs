@@ -68,7 +68,11 @@ namespace Fiorello_PB101_Demo.Areas.Admin.Controllers
 
             await _categoryService.DeleteAsync(category);
 
+            if(category.SoftDeleted)
+                return RedirectToAction("CategoryArchive","Archive");    
+
             return RedirectToAction(nameof(Index));
+
         }
 
         [HttpGet]
@@ -128,6 +132,24 @@ namespace Fiorello_PB101_Demo.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> SetToArchive(int? id)
+        {
+            if (id is null) return BadRequest();
+
+            var category = await _categoryService.GetByIdAsync((int)id);
+
+            if (category is null) return NotFound();
+
+            category.SoftDeleted = true;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(category);
         }
     }
 }

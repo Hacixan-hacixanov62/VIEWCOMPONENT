@@ -1101,6 +1101,10 @@
       "PackagePath": "staticwebassets\\admin\\assets\\images\\sprites\\yellow.png"
     },
     {
+      "Id": "C:\\C#\\Fiorello-PB101-Demo\\Fiorello-PB101-Demo\\wwwroot\\admin\\assets\\js\\archive.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\archive.js"
+    },
+    {
       "Id": "C:\\C#\\Fiorello-PB101-Demo\\Fiorello-PB101-Demo\\wwwroot\\admin\\assets\\js\\chart.js",
       "PackagePath": "staticwebassets\\admin\\assets\\js\\chart.js"
     },

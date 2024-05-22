@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LgJnBbAvrx3sJ4BiIShvPuXi6JVSoTRDJGqKjoVdbwc=",
+  "Hash": "7VsTrBM1eoHDRoEzXhls5bqVha1Df2qaLnVuZk4KjcE=",
   "Source": "Fiorello-PB101-Demo",
   "BasePath": "_content/Fiorello-PB101-Demo",
   "Mode": "Default",
@@ -5259,6 +5259,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Identity": "C:\\C#\\Fiorello-PB101-Demo\\Fiorello-PB101-Demo\\wwwroot\\admin\\assets\\js\\archive.js",
+      "SourceId": "Fiorello-PB101-Demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\Fiorello-PB101-Demo\\Fiorello-PB101-Demo\\wwwroot\\",
+      "BasePath": "_content/Fiorello-PB101-Demo",
+      "RelativePath": "admin/assets/js/archive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\assets\\js\\archive.js"
     },
     {
       "Identity": "C:\\C#\\Fiorello-PB101-Demo\\Fiorello-PB101-Demo\\wwwroot\\admin\\assets\\js\\chart.js",

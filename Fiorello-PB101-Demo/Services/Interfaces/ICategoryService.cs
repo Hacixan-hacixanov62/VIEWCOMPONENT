@@ -1,4 +1,5 @@
-﻿using Fiorello_PB101_Demo.Models;
+﻿
+using Fiorello_PB101_Demo.Models;
 using Fiorello_PB101_Demo.ViewModels.Categories;
 
 namespace Fiorello_PB101_Demo.Services.Interfaces
@@ -13,6 +14,7 @@ namespace Fiorello_PB101_Demo.Services.Interfaces
         Task CreateAsync(Category category);
         Task DeleteAsync(Category category);
         Task<bool> ExistExceptByIdAsync(int id, string name);
+        Task<IEnumerable<CategoryArchiveVM>> GetAllArchveAsync();
 
     }
 }

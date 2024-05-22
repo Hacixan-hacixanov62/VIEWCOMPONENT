@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\C#\Fiorello-PB101-Demo\Fiorello-PB101-Demo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/C\#/Fiorello-PB101-Demo/Fiorello-PB101-Demo/Areas/Admin/Views/Archive/CategoryArchiver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJjaGl2ZVxDYXRlZ29yeUFyY2hpdmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/C\#/Fiorello-PB101-Demo/Fiorello-PB101-Demo/Areas/Admin/Views/Blog/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
